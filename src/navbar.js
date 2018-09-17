@@ -5,7 +5,7 @@ const Navbar = ({reservations, menu, contact}) => {
   return (
     <div className="App-header">
       <div>
-        <img src={logo} className="App-logo" />
+        <img src={logo} className="App-logo" alt="" />
         <h1 className="App-title">Khao</h1>
         <p>EST 2018</p>
       </div>

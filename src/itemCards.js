@@ -3,7 +3,7 @@ import React from 'react'
 const itemCards = ({items}) => {
 
   const cards = items.map((foodItem) => (
-    <div className='itemCard'>
+    <div className='itemCard' key={foodItem.name}>
       <h4>{foodItem.name}</h4>
       <dl>
         <dt>Description</dt>
@@ -15,7 +15,7 @@ const itemCards = ({items}) => {
   ))
 
   return (
-    <div>
+    <div className='itemCard'>
       {cards}
     </div>
   )

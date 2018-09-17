@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='container' id='home'>
       <div className='jumbotron'>
-        <img src={food} className='img-responsive' />
+        <img src={food} className='img-responsive' alt="" />
         <h3>Welcome to Khao</h3>
       </div>
     </div>
